@@ -1,0 +1,8 @@
+
+npm init,
+crear index.ts,
+npm install,
+npm install typscrit
+modifica el outdir :./dist
+tsc
+install nodemon modifcua el ackage json start ...
