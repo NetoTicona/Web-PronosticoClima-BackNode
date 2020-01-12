@@ -5,4 +5,5 @@ npm install,
 npm install typscrit
 modifica el outdir :./dist
 tsc
+npm install tsc-watch --save-dev
 install nodemon modifcua el ackage json start ...

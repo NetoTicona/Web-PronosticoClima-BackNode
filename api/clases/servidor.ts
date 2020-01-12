@@ -1,6 +1,7 @@
 import express from 'express';
 import { Request, Response, NextFunction } from 'express';
 import { ciudad_ruta } from '../rutas/Lugar';
+import { prono_ruta } from '../rutas/Pronostico'
 
 
 
@@ -41,6 +42,7 @@ export class Server{
 
     configurarRutas(){
         this.app.use( ciudad_ruta )
+        this.app.use( prono_ruta )
     }
 }
 

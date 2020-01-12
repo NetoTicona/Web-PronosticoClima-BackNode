@@ -19,5 +19,8 @@
     "express": "^4.17.1",
     "npm-watch": "^0.6.0",
     "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.0.0"
   }
 }
